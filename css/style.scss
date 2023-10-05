@@ -4,11 +4,22 @@ body {
     box-sizing: border-box;
     header{
         .navbar,.navbar-expand-lg{
+            
             .container-fluid{
                 .navbar-brand,.btn{
                     color: #495567;
                     font-family: Space Mono;
                     
+                }
+            }
+            .btn-button{
+                .btn,.btn-outline-warning{
+                    font-family: Space Mono;
+                    font-size: 15px;
+                    width: 180px;
+                    height: 53px;
+                    margin-right: 30px;
+                    margin-left: 10px;
                 }
             }
         }

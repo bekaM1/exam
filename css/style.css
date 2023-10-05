@@ -6,4 +6,12 @@ body {
 body header .navbar .container-fluid .navbar-brand, body header .navbar .container-fluid .btn, body header .navbar-expand-lg .container-fluid .navbar-brand, body header .navbar-expand-lg .container-fluid .btn {
   color: #495567;
   font-family: Space Mono;
+}
+body header .navbar .btn-button .btn, body header .navbar .btn-button .btn-outline-warning, body header .navbar-expand-lg .btn-button .btn, body header .navbar-expand-lg .btn-button .btn-outline-warning {
+  font-family: Space Mono;
+  font-size: 15px;
+  width: 180px;
+  height: 53px;
+  margin-right: 30px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
