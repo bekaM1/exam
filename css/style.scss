@@ -2,4 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    header{
+        .navbar,.navbar-expand-lg{
+            .container-fluid{
+                .navbar-brand,.btn{
+                    color: #495567;
+                    font-family: Space Mono;
+                    
+                }
+            }
+        }
+    }
 }

@@ -2,4 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body header .navbar .container-fluid .navbar-brand, body header .navbar .container-fluid .btn, body header .navbar-expand-lg .container-fluid .navbar-brand, body header .navbar-expand-lg .container-fluid .btn {
+  color: #495567;
+  font-family: Space Mono;
 }/*# sourceMappingURL=style.css.map */
