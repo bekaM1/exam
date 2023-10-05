@@ -17,12 +17,12 @@ body header .navbar .btn-button .btn, body header .navbar .btn-button .btn-outli
   margin-right: 30px;
   margin-left: 10px;
 }
-body header .under-na, body header .img {
+body header .under-nav, body header .img {
   background-image: url(../images/Bitmap\ \(3\).png);
   width: 100%;
   height: 540px;
 }
-body header .under-na h1, body header .img h1 {
+body header .under-nav h1, body header .img h1 {
   color: #FFF;
   font-family: Space Mono;
   font-size: 56px;
@@ -33,7 +33,16 @@ body header .under-na h1, body header .img h1 {
   width: 500px;
   padding: 100px 0px 30px 80px;
 }
-body header .under-na div .head-info, body header .img div .head-info {
+body header .under-nav div .line-nav, body header .img div .line-nav {
+  display: flex;
+}
+body header .under-nav div .line-nav .line, body header .img div .line-nav .line {
+  background: orange;
+  width: 100px;
+  height: 15px;
+  margin-top: 30px;
+}
+body header .under-nav div .line-nav .head-info, body header .img div .line-nav .head-info {
   color: #FFF;
   font-family: Lexend Deca;
   font-size: 15px;
@@ -42,7 +51,15 @@ body header .under-na div .head-info, body header .img div .head-info {
   line-height: 25px;
   padding: 0px 0px 30px 130px;
 }
-body header .under-na div .btn-button, body header .img div .btn-button {
+body header .under-nav div .line-nav .lines, body header .img div .line-nav .lines {
+  background: orange;
+  width: 180px;
+  height: 15px;
+  margin-top: 30px;
+  margin-left: 20px;
+  stroke-width: 15px;
+}
+body header .under-nav div .btn-button, body header .img div .btn-button {
   margin-left: 130px;
 }
 body main {
@@ -72,7 +89,11 @@ body main .container .row .col-sm-12 {
 body section {
   margin: 130px 0px;
 }
-body section div .item1 h1 {
+body section .section-item1 {
+  display: flex;
+  justify-content: space-around;
+}
+body section .section-item1 .item1 h1 {
   color: #495567;
   font-family: Space Mono;
   font-size: 48px;
@@ -81,17 +102,165 @@ body section div .item1 h1 {
   line-height: 48px; /* 100% */
   letter-spacing: -2.143px;
 }
-body section div .item1 p {
+body section .section-item1 .item1 p {
   color: #939CAA;
   font-family: Lexend Deca;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  margin: 30px 0;
 }
-body section div .item-img {
-  background-image: url(../images/Bitmap\ \(4\).png);
+body section .section-item1 .section-img {
+  background-image: url(../images/Bitmap\ \(7\).png);
   border-radius: 50%;
   width: 35%;
   height: 400px;
+}
+body section .section-item2 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+body section .section-item2 .image {
+  background-image: url(../images/Bitmap.jpg);
+  border-radius: 50%;
+  width: 35%;
+  height: 400px;
+}
+body section .section-item2 .item2 h1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+body section .section-item2 .item2 p {
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 30px 0;
+}
+body section .section-item3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+body section .section-item3 .item3 h1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+body section .section-item3 .item3 p {
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 30px 0;
+}
+body section .section-item3 .section-foto {
+  background-image: url(../images/Bitmap\ \(5\).png);
+  border-radius: 50%;
+  width: 35%;
+  height: 400px;
+}
+body .previous .apps {
+  border: 1px solid white;
+  width: 159px;
+  height: 56px;
+  background: white;
+}
+body .previous .apps .appstore {
+  width: 24.267px;
+  height: 28px;
+}
+.main .main-photo-nav {
+  background-image: url(../images/Bitmap\ \(4\).png);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.main .main-photo-nav h1 {
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 100% */
+  letter-spacing: -2.5px;
+  padding-left: 30px;
+}
+.main .main-photo-nav img {
+  width: 234px;
+  height: 63px;
+}
+.main .main-section .section-item1 {
+  display: flex;
+  justify-content: space-around;
+}
+.main .main-section .section-item1 .up-info h1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+.main .main-section .section-item1 .up-info p {
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 30px 0;
+}
+.main .main-section .section-item1 .section-picture {
+  background-image: url(../images/rasm.png);
+  width: 30%;
+  height: 350px;
+  border-radius: 50%;
+}
+.main .main-section .main-section-item1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+}
+.main .main-section .main-section-item1 .main-section1foto {
+  background-image: url(../images/Bitmap\ \(6\).png);
+  width: 30%;
+  height: 350px;
+  border-radius: 50%;
+}
+.main .main-section .main-section-item1 .up-info h1 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+.main .main-section .main-section-item1 .up-info p {
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 30px 0;
 }/*# sourceMappingURL=style.css.map */
