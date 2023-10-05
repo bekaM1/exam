@@ -6,6 +6,8 @@ body {
 body header .navbar .container-fluid .navbar-brand, body header .navbar .container-fluid .btn, body header .navbar-expand-lg .container-fluid .navbar-brand, body header .navbar-expand-lg .container-fluid .btn {
   color: #495567;
   font-family: Space Mono;
+  color: black;
+  fill: #495567;
 }
 body header .navbar .btn-button .btn, body header .navbar .btn-button .btn-outline-warning, body header .navbar-expand-lg .btn-button .btn, body header .navbar-expand-lg .btn-button .btn-outline-warning {
   font-family: Space Mono;
@@ -14,4 +16,32 @@ body header .navbar .btn-button .btn, body header .navbar .btn-button .btn-outli
   height: 53px;
   margin-right: 30px;
   margin-left: 10px;
+}
+body header .under-na, body header .img {
+  background-image: url(../images/Bitmap\ \(3\).png);
+  width: 100%;
+  height: 540px;
+}
+body header .under-na h1, body header .img h1 {
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 100% */
+  letter-spacing: -2.5px;
+  width: 500px;
+  padding: 100px 0px 30px 80px;
+}
+body header .under-na div .head-info, body header .img div .head-info {
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 0px 0px 30px 130px;
+}
+body header .under-na div .btn-button, body header .img div .btn-button {
+  margin-left: 130px;
 }/*# sourceMappingURL=style.css.map */
