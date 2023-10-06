@@ -691,13 +691,13 @@ body {
     .location-header-img{
         background-image: url(../images/Bitmap\ \(13\).png);
         width: 100%;
-        height: 200px;
-        background-size: contain;
+        height: 170px;
+        background-size: cover;
         h2{
             color: #FFF;
             font-family: Space Mono;
             font-size: 56px;
-            padding: 70px 0px 0px 100px;
+            padding: 60px 0px 0px 50px;
         }
     }
     main{
@@ -888,5 +888,408 @@ body {
                 }
             }
         }
+        .section-designer{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background: #F2F5F9;
+            width: 1010px;
+            height: 128px;
+            margin: 24px 125px;
+            .designer-info{
+                margin-left: 20px;
+                h3{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #495567;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .btn-button{
+                margin-right: 20px;
+                .btn,.btn-outline-warning{
+                    padding: 10px 50px;
+                }
+            }
+        }
+        .section-copywriter{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background: #F2F5F9;
+            width: 1010px;
+            height: 128px;
+            margin: 24px 125px;
+            .copywriter-info{
+                margin-left: 20px;
+                h3{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #495567;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .btn-button{
+                margin-right: 20px;
+                .btn,.btn-outline-warning{
+                    padding: 10px 50px;
+                }
+            }
+        }
+        .section-gr-designer{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background: #F2F5F9;
+            width: 1010px;
+            height: 128px;
+            margin: 24px 125px;
+            .gr-designer-info{
+                margin-left: 20px;
+                h3{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #495567;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .btn-button{
+                margin-right: 20px;
+                .btn,.btn-outline-warning{
+                    padding: 10px 50px;
+                }
+            }
+        }
+        .section-superviser{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background: #F2F5F9;
+            width: 1010px;
+            height: 128px;
+            margin: 24px 125px;
+            .superviser-info{
+                margin-left: 20px;
+                h3{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #495567;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .btn-button{
+                margin-right: 20px;
+                .btn,.btn-outline-warning{
+                    padding: 10px 50px;
+                }
+            }
+        }
+        .section-analyst{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            background: #F2F5F9;
+            width: 1010px;
+            height: 128px;
+            margin: 24px 125px;
+            .analyst-info{
+                margin-left: 20px;
+                h3{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #495567;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .btn-button{
+                margin-right: 20px;
+                .btn,.btn-outline-warning{
+                    padding: 10px 50px;
+                }
+            }
+        }
     }
+    footer{
+        .up-footer{
+            background-image: url(../images/Mask\ \(1\).png);
+            background-size: cover;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            h1{
+                color: #FFF;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px; /* 100% */
+                margin-bottom: 0;
+            }
+            .apps-download{
+                display: flex;
+                margin-top: 20px;
+                .iphone{
+                    border-radius: 4px;
+                    background: #E5ECF4;
+                    width: 159px;
+                    height: 56px;  
+                    display: flex;
+                    justify-content: space-around;
+                    margin-right: 30px;
+                    img{
+                        width: 24.267px;
+                        height: 28px;
+                        margin-top: 10px;
+                    }
+                    .informatsiya{
+                        p{
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 10px;  
+                            margin-top: 10px;                      
+                        }
+                        h6{
+                            margin-left: -5px;
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 20px;
+                            margin-top: -15px;
+                        }
+                    }              
+                }
+                .samsung{
+                    border-radius: 4px;
+                    background: #E5ECF4;
+                    width: 159px;
+                    height: 56px;  
+                    display: flex;
+                    justify-content: space-around;
+                    img{
+                        width: 24.267px;
+                        height: 28px;
+                        margin-top: 10px;
+                    }
+                    .informatsiya{
+                        p{
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 10px;  
+                            margin-top: 10px;                      
+                        }
+                        h6{
+                            margin-left: -5px;
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 20px;
+                            margin-top: -15px;
+                        }
+                    }              
+                }
+            }
+        }
+        .down-side-footer{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            .navbar,.navbar-expand-lg,.bg-body-tertiary{
+                margin-top: -20px;
+                .container-fluid{
+                    background: #333A44;
+                    height: 96px;
+                    width: 100%;
+                    
+                    .collapse,.navbar-collapse{
+                        .nav-link,.active:hover{
+                            color: orange;
+                        }
+                        .nav-link,.active{
+                            color: #939CAA;
+                        }
+                    }
+                    .sc-network{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+.body-careers{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .location-header-img{
+        background-image: url(../images/Bitmap\ \(13\).png);
+        width: 100%;
+        height: 170px;
+        background-size: cover;
+        h2{
+            color: #FFF;
+            font-family: Space Mono;
+            font-size: 56px;
+            padding: 60px 0px 0px 50px;
+        }
+    }
+    .EARTH{
+        margin: 100px 60px;
+    }
+    .under-main{
+        .container{
+            .row{
+                .col-4{
+                    
+                    h2{
+                        width: 351px;
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        margin-left: 40px;
+                    }
+                    p{
+                        width: 445px;
+                        color: #939CAA;
+                        font-family: Lexend Deca;
+                        font-size: 15px;
+                        margin-left: -30px;
+                        margin-top: 20px;
+                    }
+                    .btn-button{
+                        .btn,.btn-outline-warning{
+                            padding: 10px 30px;
+                            margin: 30px 0px 0px 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .up-footer{
+            background-image: url(../images/Mask\ \(1\).png);
+            background-size: cover;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 40px;
+            h1{
+                color: #FFF;
+                font-family: Space Mono;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px; /* 100% */
+                margin-bottom: 0;
+            }
+            .apps-download{
+                display: flex;
+                margin-top: 20px;
+                .iphone{
+                    border-radius: 4px;
+                    background: #E5ECF4;
+                    width: 159px;
+                    height: 56px;  
+                    display: flex;
+                    justify-content: space-around;
+                    margin-right: 30px;
+                    img{
+                        width: 24.267px;
+                        height: 28px;
+                        margin-top: 10px;
+                    }
+                    .informatsiya{
+                        p{
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 10px;  
+                            margin-top: 10px;                      
+                        }
+                        h6{
+                            margin-left: -5px;
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 20px;
+                            margin-top: -15px;
+                        }
+                    }              
+                }
+                .samsung{
+                    border-radius: 4px;
+                    background: #E5ECF4;
+                    width: 159px;
+                    height: 56px;  
+                    display: flex;
+                    justify-content: space-around;
+                    img{
+                        width: 24.267px;
+                        height: 28px;
+                        margin-top: 10px;
+                    }
+                    .informatsiya{
+                        p{
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 10px;  
+                            margin-top: 10px;                      
+                        }
+                        h6{
+                            margin-left: -5px;
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 20px;
+                            margin-top: -15px;
+                        }
+                    }              
+                }
+            }
+        }
+        .down-side-footer{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            .navbar,.navbar-expand-lg,.bg-body-tertiary{
+                margin-top: -20px;
+                .container-fluid{
+                    background: #333A44;
+                    height: 96px;
+                    width: 100%;
+                    
+                    .collapse,.navbar-collapse{
+                        .nav-link,.active:hover{
+                            color: orange;
+                        }
+                        .nav-link,.active{
+                            color: #939CAA;
+                        }
+                    }
+                    .sc-network{
+                        
+                    }
+                }
+            }
+        }
+    }
+    
 }
