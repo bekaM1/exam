@@ -55,9 +55,15 @@ body {
         }
     }
     main{
-        margin-top: 150px;
+        margin-top: 150px; 
+        .main-back,.img{
+            z-index: 0;
+            margin-bottom: -90px;
+        }     
         .container{
+            z-index: 10;
             .row{
+                
                 .col-xl-4,.col-lg-4,.col-md-4,.col-sm-12{
                     
                     .phone-app{
@@ -184,24 +190,108 @@ body {
         }
     }
     .previous{
+        z-index: 10px;
+        margin-bottom: -0px;
+        background-image: url(../images/Mask\ \(1\).png);
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
         h1{
-
+            color: #FFF;
+            font-family: Space Mono;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 48px; /* 100% */
+            margin-bottom: 0;
         }
-        .apps{
-            .appstore{
+        .apps-download{
+            display: flex;
+            margin-top: 20px;
+            .iphone{
+                border-radius: 4px;
+                background: #E5ECF4;
+                width: 159px;
+                height: 56px;  
+                display: flex;
+                justify-content: space-around;
+                margin-right: 30px;
                 img{
-                    width: 234px;
-                    height: 63px;        
+                    width: 24.267px;
+                    height: 28px;
+                    margin-top: 10px;
                 }
-                p{
-                    color: #495567;
-                    font-family: Space Mono;
-                    font-size: 10px;
+                .informatsiya{
+                    p{
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 10px;  
+                        margin-top: 10px;                      
+                    }
+                    h6{
+                        margin-left: -5px;
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 20px;
+                        margin-top: -15px;
+                    }
+                }              
+            }
+            .samsung{
+                border-radius: 4px;
+                background: #E5ECF4;
+                width: 159px;
+                height: 56px;  
+                display: flex;
+                justify-content: space-around;
+                img{
+                    width: 24.267px;
+                    height: 28px;
+                    margin-top: 10px;
                 }
-                .app-iphone{
-                    color: #fffdfd;
-                    font-family: Space Mono;
-                    font-size: 20px;
+                .informatsiya{
+                    p{
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 10px;  
+                        margin-top: 10px;                      
+                    }
+                    h6{
+                        margin-left: -5px;
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 20px;
+                        margin-top: -15px;
+                    }
+                }              
+            }
+        }
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        z-index: 1px;
+        margin-top: -30px;
+        .navbar,.navbar-expand-lg,.bg-body-tertiary{
+            margin-top: -20px;
+            .container-fluid{
+                background: #333A44;
+                height: 96px;
+                width: 100%;
+                
+                .collapse,.navbar-collapse{
+                    .nav-link,.active:hover{
+                        color: orange;
+                    }
+                    .nav-link,.active{
+                        color: #939CAA;
+                    }
+                }
+                .sc-network{
+                    
                 }
             }
         }
@@ -209,9 +299,10 @@ body {
 }
 .main{
     .main-photo-nav{
-        background-image: url(../images/Bitmap\ \(4\).png);
+        background-image: url(../images/Bitmap\ \(8\).png);
+        background-size: cover;
         width: 100%;
-        height: 200px;
+        height: 170px;
         display: flex;
         justify-content: space-between;
         padding-top: 60px;
@@ -255,10 +346,10 @@ body {
                 }
             }
             .section-picture{
-                background-image: url(../images/rasm.png);
-                width: 30%;
-                height: 350px;
-                border-radius: 50%;
+                background-image: url(../images/Group\ 15\ \(1\).png);
+                width: 50%;
+                height: 445px;
+                margin-left: -100px;
             }
         }
         .main-section-item1{
@@ -266,10 +357,11 @@ body {
             justify-content: space-around;
             margin-top: 120px;
             .main-section1foto{
-                background-image: url(../images/Bitmap\ \(6\).png);
-                width: 30%;
-                height: 350px;
-                border-radius: 50%;
+                background-image: url(../images/Group\ 14\ \(1\).png);
+                width: 46.1%;
+                height: 445px;
+                margin-left: -100px;
+                
             }
             .up-info{
                 h1{
@@ -289,6 +381,132 @@ body {
                     font-weight: 400;
                     line-height: 25px;
                     margin: 30px 0;
+                }
+            }
+        }
+    }
+    main{
+        margin-bottom: 100px;
+        h2{
+            color: #495567;
+            text-align: center;
+            font-family: Space Mono;
+            font-size: 48px;
+        }
+        .ramka{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .container{
+                .box{
+                    background-image: url(../images/Bitmap\ \(10\).png);
+                        background-size: cover;
+                        border-radius: 50%;
+                        width: 250px;
+                        height: 258px;
+                        position: relative;
+                        margin-bottom: 20px;
+                    span{
+                        background-color: orange;
+                        width: 40px;
+                        height: 40px;
+                        display: block;
+                        border-radius: 50%;
+                        position: absolute;
+                        bottom: -20px;
+                        left: 110px;
+                        font-size: 24px;
+                        color: #495567;
+                        text-align: center;
+                        font-family: Space Mono;
+                    }
+                }
+                h4{
+                    color: #495567;
+                    margin: 20px 0;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #939CAA;
+                    
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                }
+            }
+            .container{
+                .container-foto2{
+                    background-image: url(../images/Bitmap\ \(11\).png);
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 250px;
+                    height: 258px;
+                    position: relative;
+                    margin-bottom: 20px;
+                    span{
+                        background-color: orange;
+                        width: 40px;
+                        height: 40px;
+                        display: block;
+                        border-radius: 50%;
+                        position: absolute;
+                        bottom: -20px;
+                        left: 110px;
+                        font-size: 24px;
+                        color: #495567;
+                        text-align: center;
+                        font-family: Space Mono;
+                    }
+                }
+                h4{
+                    color: #495567;
+                    margin: 20px 0;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                }
+                p{
+                    color: #939CAA;
+                    
+                    font-family: Lexend Deca;
+                    font-size: 15px;                
+                }
+            }
+            .container{
+                .main-users{
+                    background-image: url(../images/Bitmap\ \(12\).png);
+                        background-size: cover;
+                        border-radius: 50%;
+                        width: 250px;
+                        height: 258px;
+                        position: relative;
+                        margin-bottom: 20px;
+                    span{
+                        background-color: orange;
+                        width: 40px;
+                        height: 40px;
+                        display: block;
+                        border-radius: 50%;
+                        position: absolute;
+                        bottom: -20px;
+                        left: 110px;
+                        font-size: 24px;
+                        color: #495567;
+                        text-align: center;
+                        font-family: Space Mono;
+                    }
+                }
+                h4{
+                    color: #495567;
+                    margin: 20px 0;
+                    font-family: Space Mono;
+                    font-size: 24px;
+                    text-align: center;
+                }
+                p{
+                    color: #939CAA;
+                    
+                    font-family: Lexend Deca;
+                    font-size: 15px;
                 }
             }
         }
