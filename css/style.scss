@@ -209,19 +209,21 @@ body {
 
         }
         .apps{
-            border: 1px solid white;
-            width: 159px;
-            height: 56px;
-            background: white;
             .appstore{
-                width: 24.267px;
-                height: 28px;
-            }
-            p{
-
-            }
-            h5{
-
+                img{
+                    width: 234px;
+                    height: 63px;        
+                }
+                p{
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 10px;
+                }
+                .app-iphone{
+                    color: #fffdfd;
+                    font-family: Space Mono;
+                    font-size: 20px;
+                }
             }
         }
     }

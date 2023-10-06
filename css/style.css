@@ -175,16 +175,21 @@ body section .section-item3 .section-foto {
   width: 35%;
   height: 400px;
 }
-body .previous .apps {
-  border: 1px solid white;
-  width: 159px;
-  height: 56px;
-  background: white;
+body .previous .apps .appstore img {
+  width: 234px;
+  height: 63px;
 }
-body .previous .apps .appstore {
-  width: 24.267px;
-  height: 28px;
+body .previous .apps .appstore p {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 10px;
 }
+body .previous .apps .appstore .app-iphone {
+  color: #fffdfd;
+  font-family: Space Mono;
+  font-size: 20px;
+}
+
 .main .main-photo-nav {
   background-image: url(../images/Bitmap\ \(4\).png);
   width: 100%;
