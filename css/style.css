@@ -164,6 +164,7 @@ body .previous {
   z-index: 10px;
   margin-bottom: 0px;
   background-image: url(../images/Mask\ \(1\).png);
+  background-size: contain;
   width: 100%;
   height: 300px;
   display: flex;
@@ -478,4 +479,34 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-family: Space Mono;
   font-size: 48px;
   text-align: center;
+}
+.main section .container {
+  margin-bottom: 100px;
+}
+.main section .container .row .col-4 .h-100 .nav .item-write, .main section .container .row .col-4 .h-100 .nav-pills .item-write, .main section .container .row .col-4 .h-100 .flex-column .item-write, .main section .container .row .col-4 .flex-column .nav .item-write, .main section .container .row .col-4 .flex-column .nav-pills .item-write, .main section .container .row .col-4 .flex-column .flex-column .item-write, .main section .container .row .col-4 .align-items-stretch .nav .item-write, .main section .container .row .col-4 .align-items-stretch .nav-pills .item-write, .main section .container .row .col-4 .align-items-stretch .flex-column .item-write, .main section .container .row .col-4 .pe-4 .nav .item-write, .main section .container .row .col-4 .pe-4 .nav-pills .item-write, .main section .container .row .col-4 .pe-4 .flex-column .item-write, .main section .container .row .col-4 .border-end .nav .item-write, .main section .container .row .col-4 .border-end .nav-pills .item-write, .main section .container .row .col-4 .border-end .flex-column .item-write, .main section .container .row .col-4 .position-sticky .nav .item-write, .main section .container .row .col-4 .position-sticky .nav-pills .item-write, .main section .container .row .col-4 .position-sticky .flex-column .item-write {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 40px;
+}
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item {
+  background: #F2F5F9;
+}
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .accordion-header {
+  background: #F2F5F9;
+}
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .accordion-header .accordion-button {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+}
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .accordion-collapse .accordion-body, .main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .collapse .accordion-body, .main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .show .accordion-body {
+  color: #495567;
+  font-family: Lexend Deca;
+  font-size: 15px;
+}
+.main footer .up-footer {
+  background-image: url(../images/Mask\ \(1\).png);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
