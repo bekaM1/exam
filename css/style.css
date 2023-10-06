@@ -281,6 +281,7 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   height: 63px;
 }
 .main .main-section .section-item1 {
+  margin-top: 120px;
   display: flex;
   justify-content: space-around;
 }
@@ -350,6 +351,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-left: 80px;
+  margin-top: 50px;
 }
 .main main .ramka .container .box {
   background-image: url(../images/Bitmap\ \(10\).png);
@@ -374,16 +377,21 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   text-align: center;
   font-family: Space Mono;
 }
-.main main .ramka .container h4 {
+.main main .ramka .container .main-first {
   color: #495567;
   margin: 20px 0;
   font-family: Space Mono;
   font-size: 24px;
+  margin-left: 90px;
+  margin-top: 50px;
 }
 .main main .ramka .container p {
   color: #939CAA;
   font-family: Lexend Deca;
   font-size: 15px;
+}
+.main main .ramka .container {
+  margin-left: 20px;
 }
 .main main .ramka .container .container-foto2 {
   background-image: url(../images/Bitmap\ \(11\).png);
@@ -408,11 +416,13 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   text-align: center;
   font-family: Space Mono;
 }
-.main main .ramka .container h4 {
+.main main .ramka .container .main-heading {
   color: #495567;
   margin: 20px 0;
   font-family: Space Mono;
   font-size: 24px;
+  margin-left: 70px;
+  margin-top: 50px;
 }
 .main main .ramka .container p {
   color: #939CAA;
@@ -447,10 +457,25 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   margin: 20px 0;
   font-family: Space Mono;
   font-size: 24px;
-  text-align: center;
+  margin-left: 60px;
+  margin-top: 50px;
 }
 .main main .ramka .container p {
   color: #939CAA;
   font-family: Lexend Deca;
   font-size: 15px;
+}
+.main section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main section .company {
+  margin-left: 30px;
+  color: #495567;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 48px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
