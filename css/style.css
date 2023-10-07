@@ -3,32 +3,107 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-body header .navbar .container-fluid .collapse .navbar-nav .nav-link:hover, body header .navbar .container-fluid .collapse .me-auto .nav-link:hover, body header .navbar .container-fluid .collapse .mb-2 .nav-link:hover, body header .navbar .container-fluid .collapse .mb-lg-0 .nav-link:hover, body header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link:hover, body header .navbar .container-fluid .navbar-collapse .me-auto .nav-link:hover, body header .navbar .container-fluid .navbar-collapse .mb-2 .nav-link:hover, body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover, body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-link:hover, body header .navbar-expand-lg .container-fluid .collapse .me-auto .nav-link:hover, body header .navbar-expand-lg .container-fluid .collapse .mb-2 .nav-link:hover, body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .nav-link:hover, body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .nav-link:hover, body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .nav-link:hover, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .nav-link:hover, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover, body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .nav-link:hover, body header .bg-body-tertiary .container-fluid .collapse .me-auto .nav-link:hover, body header .bg-body-tertiary .container-fluid .collapse .mb-2 .nav-link:hover, body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .nav-link:hover, body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .nav-link:hover, body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .nav-link:hover, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .nav-link:hover, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover {
+body header .navbar .container-fluid .collapse .navbar-nav .nav-link:hover,
+body header .navbar .container-fluid .collapse .me-auto .nav-link:hover,
+body header .navbar .container-fluid .collapse .mb-2 .nav-link:hover,
+body header .navbar .container-fluid .collapse .mb-lg-0 .nav-link:hover,
+body header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link:hover,
+body header .navbar .container-fluid .navbar-collapse .me-auto .nav-link:hover,
+body header .navbar .container-fluid .navbar-collapse .mb-2 .nav-link:hover,
+body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .collapse .me-auto .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .collapse .mb-2 .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .nav-link:hover,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .collapse .me-auto .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .collapse .mb-2 .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .nav-link:hover,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .nav-link:hover {
   color: orange;
 }
-body header .navbar .container-fluid .collapse .navbar-nav .nav-link, body header .navbar .container-fluid .collapse .navbar-nav .active, body header .navbar .container-fluid .collapse .me-auto .nav-link, body header .navbar .container-fluid .collapse .me-auto .active, body header .navbar .container-fluid .collapse .mb-2 .nav-link, body header .navbar .container-fluid .collapse .mb-2 .active, body header .navbar .container-fluid .collapse .mb-lg-0 .nav-link, body header .navbar .container-fluid .collapse .mb-lg-0 .active, body header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link, body header .navbar .container-fluid .navbar-collapse .navbar-nav .active, body header .navbar .container-fluid .navbar-collapse .me-auto .nav-link, body header .navbar .container-fluid .navbar-collapse .me-auto .active, body header .navbar .container-fluid .navbar-collapse .mb-2 .nav-link, body header .navbar .container-fluid .navbar-collapse .mb-2 .active, body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .nav-link, body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .active, body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-link, body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .active, body header .navbar-expand-lg .container-fluid .collapse .me-auto .nav-link, body header .navbar-expand-lg .container-fluid .collapse .me-auto .active, body header .navbar-expand-lg .container-fluid .collapse .mb-2 .nav-link, body header .navbar-expand-lg .container-fluid .collapse .mb-2 .active, body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .nav-link, body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .active, body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .nav-link, body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .active, body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .nav-link, body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .active, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .nav-link, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .active, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .nav-link, body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .active, body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .nav-link, body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .active, body header .bg-body-tertiary .container-fluid .collapse .me-auto .nav-link, body header .bg-body-tertiary .container-fluid .collapse .me-auto .active, body header .bg-body-tertiary .container-fluid .collapse .mb-2 .nav-link, body header .bg-body-tertiary .container-fluid .collapse .mb-2 .active, body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .nav-link, body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .active, body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .nav-link, body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .active, body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .nav-link, body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .active, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .nav-link, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .active, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .nav-link, body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .active {
+body header .navbar .container-fluid .collapse .navbar-nav .nav-link,
+body header .navbar .container-fluid .collapse .navbar-nav .active,
+body header .navbar .container-fluid .collapse .me-auto .nav-link,
+body header .navbar .container-fluid .collapse .me-auto .active,
+body header .navbar .container-fluid .collapse .mb-2 .nav-link,
+body header .navbar .container-fluid .collapse .mb-2 .active,
+body header .navbar .container-fluid .collapse .mb-lg-0 .nav-link,
+body header .navbar .container-fluid .collapse .mb-lg-0 .active,
+body header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link,
+body header .navbar .container-fluid .navbar-collapse .navbar-nav .active,
+body header .navbar .container-fluid .navbar-collapse .me-auto .nav-link,
+body header .navbar .container-fluid .navbar-collapse .me-auto .active,
+body header .navbar .container-fluid .navbar-collapse .mb-2 .nav-link,
+body header .navbar .container-fluid .navbar-collapse .mb-2 .active,
+body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .nav-link,
+body header .navbar .container-fluid .navbar-collapse .mb-lg-0 .active,
+body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .nav-link,
+body header .navbar-expand-lg .container-fluid .collapse .navbar-nav .active,
+body header .navbar-expand-lg .container-fluid .collapse .me-auto .nav-link,
+body header .navbar-expand-lg .container-fluid .collapse .me-auto .active,
+body header .navbar-expand-lg .container-fluid .collapse .mb-2 .nav-link,
+body header .navbar-expand-lg .container-fluid .collapse .mb-2 .active,
+body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .nav-link,
+body header .navbar-expand-lg .container-fluid .collapse .mb-lg-0 .active,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .nav-link,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .navbar-nav .active,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .nav-link,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .me-auto .active,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .nav-link,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-2 .active,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .nav-link,
+body header .navbar-expand-lg .container-fluid .navbar-collapse .mb-lg-0 .active,
+body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .nav-link,
+body header .bg-body-tertiary .container-fluid .collapse .navbar-nav .active,
+body header .bg-body-tertiary .container-fluid .collapse .me-auto .nav-link,
+body header .bg-body-tertiary .container-fluid .collapse .me-auto .active,
+body header .bg-body-tertiary .container-fluid .collapse .mb-2 .nav-link,
+body header .bg-body-tertiary .container-fluid .collapse .mb-2 .active,
+body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .nav-link,
+body header .bg-body-tertiary .container-fluid .collapse .mb-lg-0 .active,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .nav-link,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .navbar-nav .active,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .nav-link,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .me-auto .active,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .nav-link,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-2 .active,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .nav-link,
+body header .bg-body-tertiary .container-fluid .navbar-collapse .mb-lg-0 .active {
   color: #939CAA;
 }
-body header .under-nav, body header .img {
+body header .under-nav,
+body header .img {
   background-image: url(../images/Group\ 41.png);
   width: 100%;
   height: 540px;
 }
-body header .under-nav h1, body header .img h1 {
+body header .under-nav h1,
+body header .img h1 {
   color: #FFF;
   font-family: Space Mono;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 56px; /* 100% */
+  line-height: 56px;
+  /* 100% */
   letter-spacing: -2.5px;
   width: 500px;
   padding: 120px 0px 30px 100px;
 }
-body header .under-nav div .line-nav, body header .img div .line-nav {
+body header .under-nav div .line-nav,
+body header .img div .line-nav {
   display: flex;
 }
-body header .under-nav div .line-nav .head-info, body header .img div .line-nav .head-info {
+body header .under-nav div .line-nav .head-info,
+body header .img div .line-nav .head-info {
   color: #FFF;
   font-family: Lexend Deca;
   font-size: 15px;
@@ -37,20 +112,25 @@ body header .under-nav div .line-nav .head-info, body header .img div .line-nav 
   line-height: 25px;
   padding: 30px 0px 30px 280px;
 }
-body header .under-nav div .btn-button, body header .img div .btn-button {
+body header .under-nav div .btn-button,
+body header .img div .btn-button {
   margin-left: 130px;
 }
 body main {
   margin-top: 150px;
 }
-body main .main-back, body main .img {
+body main .main-back,
+body main .img {
   z-index: 0;
   margin-bottom: -90px;
 }
 body main .container {
   z-index: 10;
 }
-body main .container .row .col-xl-4 .phone-app, body main .container .row .col-lg-4 .phone-app, body main .container .row .col-md-4 .phone-app, body main .container .row .col-sm-12 .phone-app {
+body main .container .row .col-xl-4 .phone-app,
+body main .container .row .col-lg-4 .phone-app,
+body main .container .row .col-md-4 .phone-app,
+body main .container .row .col-sm-12 .phone-app {
   color: #495567;
   font-family: Space Mono;
   font-size: 24px;
@@ -60,7 +140,10 @@ body main .container .row .col-xl-4 .phone-app, body main .container .row .col-l
   letter-spacing: -1.071px;
   padding: 15px 0px;
 }
-body main .container .row .col-xl-4 p, body main .container .row .col-lg-4 p, body main .container .row .col-md-4 p, body main .container .row .col-sm-12 p {
+body main .container .row .col-xl-4 p,
+body main .container .row .col-lg-4 p,
+body main .container .row .col-md-4 p,
+body main .container .row .col-sm-12 p {
   color: #939CAA;
   font-family: Lexend Deca;
   font-size: 15px;
@@ -84,7 +167,8 @@ body section .section-item1 .item1 h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   letter-spacing: -2.143px;
 }
 body section .section-item1 .item1 p {
@@ -119,7 +203,8 @@ body section .section-item2 .item2 h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   letter-spacing: -2.143px;
 }
 body section .section-item2 .item2 p {
@@ -142,7 +227,8 @@ body section .section-item3 .item3 h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   letter-spacing: -2.143px;
 }
 body section .section-item3 .item3 p {
@@ -177,7 +263,8 @@ body .previous h1 {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   margin-bottom: 0;
 }
 body .previous .apps-download {
@@ -242,20 +329,46 @@ body footer {
   padding: 0;
   box-sizing: border-box;
 }
-body footer .navbar, body footer .navbar-expand-lg, body footer .bg-body-tertiary {
+body footer .navbar,
+body footer .navbar-expand-lg,
+body footer .bg-body-tertiary {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body footer .navbar .container-fluid, body footer .navbar-expand-lg .container-fluid, body footer .bg-body-tertiary .container-fluid {
+body footer .navbar .container-fluid,
+body footer .navbar-expand-lg .container-fluid,
+body footer .bg-body-tertiary .container-fluid {
   background: #333A44;
   height: 96px;
   width: 100%;
 }
-body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .container-fluid .collapse .active:hover, body footer .navbar .container-fluid .navbar-collapse .nav-link, body footer .navbar .container-fluid .navbar-collapse .active:hover, body footer .navbar-expand-lg .container-fluid .collapse .nav-link, body footer .navbar-expand-lg .container-fluid .collapse .active:hover, body footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, body footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover, body footer .bg-body-tertiary .container-fluid .collapse .nav-link, body footer .bg-body-tertiary .container-fluid .collapse .active:hover, body footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, body footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
+body footer .navbar .container-fluid .collapse .nav-link,
+body footer .navbar .container-fluid .collapse .active:hover,
+body footer .navbar .container-fluid .navbar-collapse .nav-link,
+body footer .navbar .container-fluid .navbar-collapse .active:hover,
+body footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+body footer .navbar-expand-lg .container-fluid .collapse .active:hover,
+body footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+body footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover,
+body footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+body footer .bg-body-tertiary .container-fluid .collapse .active:hover,
+body footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+body footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
   color: orange;
 }
-body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .container-fluid .collapse .active, body footer .navbar .container-fluid .navbar-collapse .nav-link, body footer .navbar .container-fluid .navbar-collapse .active, body footer .navbar-expand-lg .container-fluid .collapse .nav-link, body footer .navbar-expand-lg .container-fluid .collapse .active, body footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, body footer .navbar-expand-lg .container-fluid .navbar-collapse .active, body footer .bg-body-tertiary .container-fluid .collapse .nav-link, body footer .bg-body-tertiary .container-fluid .collapse .active, body footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, body footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
+body footer .navbar .container-fluid .collapse .nav-link,
+body footer .navbar .container-fluid .collapse .active,
+body footer .navbar .container-fluid .navbar-collapse .nav-link,
+body footer .navbar .container-fluid .navbar-collapse .active,
+body footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+body footer .navbar-expand-lg .container-fluid .collapse .active,
+body footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+body footer .navbar-expand-lg .container-fluid .navbar-collapse .active,
+body footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+body footer .bg-body-tertiary .container-fluid .collapse .active,
+body footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+body footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   color: #939CAA;
 }
 .main .main-photo-nav {
@@ -273,7 +386,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 56px; /* 100% */
+  line-height: 56px;
+  /* 100% */
   letter-spacing: -2.5px;
   padding-left: 30px;
 }
@@ -292,7 +406,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   letter-spacing: -2.143px;
 }
 .main .main-section .section-item1 .up-info p {
@@ -327,7 +442,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   letter-spacing: -2.143px;
 }
 .main .main-section .main-section-item1 .up-info p {
@@ -483,7 +599,24 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .main section .container {
   margin-bottom: 100px;
 }
-.main section .container .row .col-4 .h-100 .nav .item-write, .main section .container .row .col-4 .h-100 .nav-pills .item-write, .main section .container .row .col-4 .h-100 .flex-column .item-write, .main section .container .row .col-4 .flex-column .nav .item-write, .main section .container .row .col-4 .flex-column .nav-pills .item-write, .main section .container .row .col-4 .flex-column .flex-column .item-write, .main section .container .row .col-4 .align-items-stretch .nav .item-write, .main section .container .row .col-4 .align-items-stretch .nav-pills .item-write, .main section .container .row .col-4 .align-items-stretch .flex-column .item-write, .main section .container .row .col-4 .pe-4 .nav .item-write, .main section .container .row .col-4 .pe-4 .nav-pills .item-write, .main section .container .row .col-4 .pe-4 .flex-column .item-write, .main section .container .row .col-4 .border-end .nav .item-write, .main section .container .row .col-4 .border-end .nav-pills .item-write, .main section .container .row .col-4 .border-end .flex-column .item-write, .main section .container .row .col-4 .position-sticky .nav .item-write, .main section .container .row .col-4 .position-sticky .nav-pills .item-write, .main section .container .row .col-4 .position-sticky .flex-column .item-write {
+.main section .container .row .col-4 .h-100 .nav .item-write,
+.main section .container .row .col-4 .h-100 .nav-pills .item-write,
+.main section .container .row .col-4 .h-100 .flex-column .item-write,
+.main section .container .row .col-4 .flex-column .nav .item-write,
+.main section .container .row .col-4 .flex-column .nav-pills .item-write,
+.main section .container .row .col-4 .flex-column .flex-column .item-write,
+.main section .container .row .col-4 .align-items-stretch .nav .item-write,
+.main section .container .row .col-4 .align-items-stretch .nav-pills .item-write,
+.main section .container .row .col-4 .align-items-stretch .flex-column .item-write,
+.main section .container .row .col-4 .pe-4 .nav .item-write,
+.main section .container .row .col-4 .pe-4 .nav-pills .item-write,
+.main section .container .row .col-4 .pe-4 .flex-column .item-write,
+.main section .container .row .col-4 .border-end .nav .item-write,
+.main section .container .row .col-4 .border-end .nav-pills .item-write,
+.main section .container .row .col-4 .border-end .flex-column .item-write,
+.main section .container .row .col-4 .position-sticky .nav .item-write,
+.main section .container .row .col-4 .position-sticky .nav-pills .item-write,
+.main section .container .row .col-4 .position-sticky .flex-column .item-write {
   color: #495567;
   font-family: Space Mono;
   font-size: 40px;
@@ -499,7 +632,9 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-family: Space Mono;
   font-size: 24px;
 }
-.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .accordion-collapse .accordion-body, .main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .collapse .accordion-body, .main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .show .accordion-body {
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .accordion-collapse .accordion-body,
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .collapse .accordion-body,
+.main section .container .row .col-8 .scrollspy-example-2 .accordion .accordion-item .show .accordion-body {
   color: #495567;
   font-family: Lexend Deca;
   font-size: 15px;
@@ -519,7 +654,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   margin-bottom: 0;
 }
 .main footer .up-footer .apps-download {
@@ -584,20 +720,46 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   padding: 0;
   box-sizing: border-box;
 }
-.main footer .down-side-footer .navbar, .main footer .down-side-footer .navbar-expand-lg, .main footer .down-side-footer .bg-body-tertiary {
+.main footer .down-side-footer .navbar,
+.main footer .down-side-footer .navbar-expand-lg,
+.main footer .down-side-footer .bg-body-tertiary {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.main footer .down-side-footer .navbar .container-fluid, .main footer .down-side-footer .navbar-expand-lg .container-fluid, .main footer .down-side-footer .bg-body-tertiary .container-fluid {
+.main footer .down-side-footer .navbar .container-fluid,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
   height: 96px;
   width: 100%;
 }
-.main footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .main footer .down-side-footer .navbar .container-fluid .collapse .active:hover, .main footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover, .main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover, .main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover, .main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover, .main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
+.main footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .navbar .container-fluid .collapse .active:hover,
+.main footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
   color: orange;
 }
-.main footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .main footer .down-side-footer .navbar .container-fluid .collapse .active, .main footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .navbar .container-fluid .navbar-collapse .active, .main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active, .main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active, .main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active, .main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
+.main footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .navbar .container-fluid .collapse .active,
+.main footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .navbar .container-fluid .navbar-collapse .active,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.main footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   color: #939CAA;
 }
 .location-body {
@@ -627,10 +789,13 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-family: Lexend Deca;
   font-size: 15px;
 }
-.location-body main .container .row .btn-button .btn, .location-body main .container .row .btn-button .btn-outline-warning {
+.location-body main .container .row .btn-button .btn,
+.location-body main .container .row .btn-button .btn-outline-warning {
   padding: 10px 30px;
 }
-.location-body main .container .row .col-lg-6 img, .location-body main .container .row .col-md-6 img, .location-body main .container .row .col-sm-12 img {
+.location-body main .container .row .col-lg-6 img,
+.location-body main .container .row .col-md-6 img,
+.location-body main .container .row .col-sm-12 img {
   margin-left: -122px;
 }
 .location-body section h2 {
@@ -781,7 +946,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-manager .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-manager .btn-button .btn, .location-body .div-section .section-manager .btn-button .btn-outline-warning {
+.location-body .div-section .section-manager .btn-button .btn,
+.location-body .div-section .section-manager .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body .div-section .section-designer {
@@ -809,7 +975,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-designer .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-designer .btn-button .btn, .location-body .div-section .section-designer .btn-button .btn-outline-warning {
+.location-body .div-section .section-designer .btn-button .btn,
+.location-body .div-section .section-designer .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body .div-section .section-copywriter {
@@ -837,7 +1004,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-copywriter .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-copywriter .btn-button .btn, .location-body .div-section .section-copywriter .btn-button .btn-outline-warning {
+.location-body .div-section .section-copywriter .btn-button .btn,
+.location-body .div-section .section-copywriter .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body .div-section .section-gr-designer {
@@ -865,7 +1033,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-gr-designer .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-gr-designer .btn-button .btn, .location-body .div-section .section-gr-designer .btn-button .btn-outline-warning {
+.location-body .div-section .section-gr-designer .btn-button .btn,
+.location-body .div-section .section-gr-designer .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body .div-section .section-superviser {
@@ -893,7 +1062,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-superviser .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-superviser .btn-button .btn, .location-body .div-section .section-superviser .btn-button .btn-outline-warning {
+.location-body .div-section .section-superviser .btn-button .btn,
+.location-body .div-section .section-superviser .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body .div-section .section-analyst {
@@ -921,7 +1091,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
 .location-body .div-section .section-analyst .btn-button {
   margin-right: 20px;
 }
-.location-body .div-section .section-analyst .btn-button .btn, .location-body .div-section .section-analyst .btn-button .btn-outline-warning {
+.location-body .div-section .section-analyst .btn-button .btn,
+.location-body .div-section .section-analyst .btn-button .btn-outline-warning {
   padding: 10px 50px;
 }
 .location-body footer .up-footer {
@@ -939,7 +1110,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   margin-bottom: 0;
 }
 .location-body footer .up-footer .apps-download {
@@ -1004,20 +1176,46 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   padding: 0;
   box-sizing: border-box;
 }
-.location-body footer .down-side-footer .navbar, .location-body footer .down-side-footer .navbar-expand-lg, .location-body footer .down-side-footer .bg-body-tertiary {
+.location-body footer .down-side-footer .navbar,
+.location-body footer .down-side-footer .navbar-expand-lg,
+.location-body footer .down-side-footer .bg-body-tertiary {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.location-body footer .down-side-footer .navbar .container-fluid, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid {
+.location-body footer .down-side-footer .navbar .container-fluid,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
   height: 96px;
   width: 100%;
 }
-.location-body footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .navbar .container-fluid .collapse .active:hover, .location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
+.location-body footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .navbar .container-fluid .collapse .active:hover,
+.location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
   color: orange;
 }
-.location-body footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .navbar .container-fluid .collapse .active, .location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .active, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
+.location-body footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .navbar .container-fluid .collapse .active,
+.location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .navbar .container-fluid .navbar-collapse .active,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.location-body footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   color: #939CAA;
 }
 .body-careers {
@@ -1037,9 +1235,6 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 56px;
   padding: 60px 0px 0px 50px;
 }
-.body-careers .EARTH {
-  margin: 100px 60px;
-}
 .body-careers .under-main .container .row .col-4 h2 {
   width: 351px;
   color: #495567;
@@ -1055,7 +1250,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   margin-left: -30px;
   margin-top: 20px;
 }
-.body-careers .under-main .container .row .col-4 .btn-button .btn, .body-careers .under-main .container .row .col-4 .btn-button .btn-outline-warning {
+.body-careers .under-main .container .row .col-4 .btn-button .btn,
+.body-careers .under-main .container .row .col-4 .btn-button .btn-outline-warning {
   padding: 10px 30px;
   margin: 30px 0px 0px 50px;
 }
@@ -1074,7 +1270,8 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 100% */
+  line-height: 48px;
+  /* 100% */
   margin-bottom: 0;
 }
 .body-careers footer .up-footer .apps-download {
@@ -1139,19 +1336,62 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   padding: 0;
   box-sizing: border-box;
 }
-.body-careers footer .down-side-footer .navbar, .body-careers footer .down-side-footer .navbar-expand-lg, .body-careers footer .down-side-footer .bg-body-tertiary {
+.body-careers footer .down-side-footer .navbar,
+.body-careers footer .down-side-footer .navbar-expand-lg,
+.body-careers footer .down-side-footer .bg-body-tertiary {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.body-careers footer .down-side-footer .navbar .container-fluid, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid {
+.body-careers footer .down-side-footer .navbar .container-fluid,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
   height: 96px;
   width: 100%;
 }
-.body-careers footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .navbar .container-fluid .collapse .active:hover, .body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
+.body-careers footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .navbar .container-fluid .collapse .active:hover,
+.body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .active:hover,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active:hover,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active:hover,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active:hover,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active:hover {
   color: orange;
 }
-.body-careers footer .down-side-footer .navbar .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .navbar .container-fluid .collapse .active, .body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .active, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
+.body-careers footer .down-side-footer .navbar .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .navbar .container-fluid .collapse .active,
+.body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .navbar .container-fluid .navbar-collapse .active,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .collapse .active,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .navbar-expand-lg .container-fluid .navbar-collapse .active,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .nav-link,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .collapse .active,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .nav-link,
+.body-careers footer .down-side-footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   color: #939CAA;
+}
+.EARTH {
+  margin: 0;
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.row11 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media only screen and (orientation: landscape) {
+  .up-footer h1 {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

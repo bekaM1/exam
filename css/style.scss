@@ -1,45 +1,61 @@
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    header{
-        .navbar,.navbar-expand-lg,.bg-body-tertiary{
-            .container-fluid{
-                .collapse,.navbar-collapse{
-                    .navbar-nav,.me-auto,.mb-2,.mb-lg-0{
-                        .nav-link:hover{
+
+    header {
+
+        .navbar,
+        .navbar-expand-lg,
+        .bg-body-tertiary {
+            .container-fluid {
+
+                .collapse,
+                .navbar-collapse {
+
+                    .navbar-nav,
+                    .me-auto,
+                    .mb-2,
+                    .mb-lg-0 {
+                        .nav-link:hover {
                             color: orange;
-                            
+
                         }
-                        .nav-link,.active{
+
+                        .nav-link,
+                        .active {
                             color: #939CAA;
                         }
                     }
                 }
             }
         }
-        .under-nav,.img{
+
+        .under-nav,
+        .img {
             background-image: url(../images/Group\ 41.png);
             width: 100%;
             height: 540px;
-            
-            h1{
+
+            h1 {
                 color: #FFF;
                 font-family: Space Mono;
                 font-size: 56px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 56px; /* 100% */
+                line-height: 56px;
+                /* 100% */
                 letter-spacing: -2.5px;
                 width: 500px;
                 padding: 120px 0px 30px 100px;
 
             }
-            div{
-                .line-nav{
+
+            div {
+                .line-nav {
                     display: flex;
-                    .head-info{
+
+                    .head-info {
                         color: #FFF;
                         font-family: Lexend Deca;
                         font-size: 15px;
@@ -49,35 +65,45 @@ body {
                         padding: 30px 0px 30px 280px;
                     }
                 }
-                .btn-button{
+
+                .btn-button {
                     margin-left: 130px;
                 }
             }
         }
     }
-    main{
-        margin-top: 150px; 
-        .main-back,.img{
+
+    main {
+        margin-top: 150px;
+
+        .main-back,
+        .img {
             z-index: 0;
             margin-bottom: -90px;
-        }     
-        .container{
+        }
+
+        .container {
             z-index: 10;
-            .row{
-                
-                .col-xl-4,.col-lg-4,.col-md-4,.col-sm-12{
-                    
-                    .phone-app{
+
+            .row {
+
+                .col-xl-4,
+                .col-lg-4,
+                .col-md-4,
+                .col-sm-12 {
+
+                    .phone-app {
                         color: #495567;
                         font-family: Space Mono;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 700;
-                        line-height: 28px; 
+                        line-height: 28px;
                         letter-spacing: -1.071px;
                         padding: 15px 0px;
                     }
-                    p{
+
+                    p {
                         color: #939CAA;
                         font-family: Lexend Deca;
                         font-size: 15px;
@@ -87,102 +113,116 @@ body {
                     }
                 }
 
-                .col-sm-12{
+                .col-sm-12 {
                     align-items: center;
                 }
             }
         }
     }
-    section{
+
+    section {
         margin: 130px 0px;
-        
-        .section-item1{
+
+        .section-item1 {
             display: flex;
             justify-content: space-around;
-            .item1{
-                h1{
+
+            .item1 {
+                h1 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px; /* 100% */
+                    line-height: 48px;
+                    /* 100% */
                     letter-spacing: -2.143px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 25px;  
-                    margin: 30px 0;             
+                    line-height: 25px;
+                    margin: 30px 0;
                 }
             }
-            .section-img{
+
+            .section-img {
                 background-image: url(../images/Group\ 15.png);
                 width: 58%;
                 height: 450px;
                 margin-right: -55px;
             }
         }
-        .section-item2{
+
+        .section-item2 {
             margin-top: 120px;
             display: flex;
             justify-content: space-around;
-            .image{
+
+            .image {
                 background-image: url(../images/Group\ 14.png);
                 width: 48.19%;
                 height: 445px;
                 margin-left: -100px;
             }
-            .item2{
-                h1{
+
+            .item2 {
+                h1 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px; /* 100% */
+                    line-height: 48px;
+                    /* 100% */
                     letter-spacing: -2.143px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 25px;  
-                    margin: 30px 0;             
+                    line-height: 25px;
+                    margin: 30px 0;
                 }
             }
         }
 
-        .section-item3{
+        .section-item3 {
             display: flex;
             justify-content: space-around;
             margin-top: 120px;
-            .item3{
-                h1{
+
+            .item3 {
+                h1 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px; /* 100% */
+                    line-height: 48px;
+                    /* 100% */
                     letter-spacing: -2.143px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 25px;  
-                    margin: 30px 0;             
+                    line-height: 25px;
+                    margin: 30px 0;
                 }
             }
-            .section-foto{
+
+            .section-foto {
                 background-image: url(../images/Group\ 18.png);
                 width: 45%;
                 height: 445px;
@@ -190,7 +230,8 @@ body {
             }
         }
     }
-    .previous{
+
+    .previous {
         z-index: 10px;
         margin-bottom: -0px;
         background-image: url(../images/Mask\ \(1\).png);
@@ -200,107 +241,128 @@ body {
         display: flex;
         justify-content: space-around;
         padding-top: 100px;
-        h1{
+
+        h1 {
             color: #FFF;
             font-family: Space Mono;
             font-size: 48px;
             font-style: normal;
             font-weight: 700;
-            line-height: 48px; /* 100% */
+            line-height: 48px;
+            /* 100% */
             margin-bottom: 0;
         }
-        .apps-download{
+
+        .apps-download {
             display: flex;
             margin-top: 20px;
-            .iphone{
+
+            .iphone {
                 border-radius: 4px;
                 background: #E5ECF4;
                 width: 159px;
-                height: 56px;  
+                height: 56px;
                 display: flex;
                 justify-content: space-around;
                 margin-right: 30px;
-                img{
+
+                img {
                     width: 24.267px;
                     height: 28px;
                     margin-top: 10px;
                 }
-                .informatsiya{
-                    p{
+
+                .informatsiya {
+                    p {
                         color: #495567;
                         font-family: Space Mono;
-                        font-size: 10px;  
-                        margin-top: 10px;                      
+                        font-size: 10px;
+                        margin-top: 10px;
                     }
-                    h6{
+
+                    h6 {
                         margin-left: -5px;
                         color: #495567;
                         font-family: Space Mono;
                         font-size: 20px;
                         margin-top: -15px;
                     }
-                }              
+                }
             }
-            .samsung{
+
+            .samsung {
                 border-radius: 4px;
                 background: #E5ECF4;
                 width: 159px;
-                height: 56px;  
+                height: 56px;
                 display: flex;
                 justify-content: space-around;
-                img{
+
+                img {
                     width: 24.267px;
                     height: 28px;
                     margin-top: 10px;
                 }
-                .informatsiya{
-                    p{
+
+                .informatsiya {
+                    p {
                         color: #495567;
                         font-family: Space Mono;
-                        font-size: 10px;  
-                        margin-top: 10px;                      
+                        font-size: 10px;
+                        margin-top: 10px;
                     }
-                    h6{
+
+                    h6 {
                         margin-left: -5px;
                         color: #495567;
                         font-family: Space Mono;
                         font-size: 20px;
                         margin-top: -15px;
                     }
-                }              
+                }
             }
         }
     }
-    footer{
+
+    footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        .navbar,.navbar-expand-lg,.bg-body-tertiary{
+
+        .navbar,
+        .navbar-expand-lg,
+        .bg-body-tertiary {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            .container-fluid{
+
+            .container-fluid {
                 background: #333A44;
                 height: 96px;
                 width: 100%;
-                
-                .collapse,.navbar-collapse{
-                    .nav-link,.active:hover{
+
+                .collapse,
+                .navbar-collapse {
+
+                    .nav-link,
+                    .active:hover {
                         color: orange;
                     }
-                    .nav-link,.active{
+
+                    .nav-link,
+                    .active {
                         color: #939CAA;
                     }
                 }
-                .sc-network{
-                    
-                }
+
+                .sc-network {}
             }
         }
     }
 }
-.main{
-    .main-photo-nav{
+
+.main {
+    .main-photo-nav {
         background-image: url(../images/Bitmap\ \(8\).png);
         background-size: cover;
         width: 100%;
@@ -308,37 +370,44 @@ body {
         display: flex;
         justify-content: space-between;
         padding-top: 60px;
-        h1{
+
+        h1 {
             color: #FFF;
             font-family: Space Mono;
             font-size: 56px;
             font-style: normal;
             font-weight: 700;
-            line-height: 56px; /* 100% */
+            line-height: 56px;
+            /* 100% */
             letter-spacing: -2.5px;
             padding-left: 30px;
         }
-        img{
+
+        img {
             width: 234px;
-            height: 63px;        
+            height: 63px;
         }
     }
-    .main-section{
-        .section-item1{
+
+    .main-section {
+        .section-item1 {
             margin-top: 120px;
             display: flex;
             justify-content: space-around;
-            .up-info{
-                h1{
+
+            .up-info {
+                h1 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px; /* 100% */
+                    line-height: 48px;
+                    /* 100% */
                     letter-spacing: -2.143px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
@@ -348,35 +417,41 @@ body {
                     margin: 30px 0;
                 }
             }
-            .section-picture{
+
+            .section-picture {
                 background-image: url(../images/Group\ 15\ \(1\).png);
                 width: 50%;
                 height: 445px;
                 margin-left: -100px;
             }
         }
-        .main-section-item1{
+
+        .main-section-item1 {
             display: flex;
             justify-content: space-around;
             margin-top: 120px;
-            .main-section1foto{
+
+            .main-section1foto {
                 background-image: url(../images/Group\ 14\ \(1\).png);
                 width: 46.1%;
                 height: 445px;
                 margin-left: -100px;
-                
+
             }
-            .up-info{
-                h1{
+
+            .up-info {
+                h1 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px; /* 100% */
+                    line-height: 48px;
+                    /* 100% */
                     letter-spacing: -2.143px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
@@ -388,30 +463,35 @@ body {
             }
         }
     }
-    main{
+
+    main {
         margin-bottom: 100px;
-        h2{
+
+        h2 {
             color: #495567;
             text-align: center;
             font-family: Space Mono;
             font-size: 48px;
         }
-        .ramka{
+
+        .ramka {
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin-left: 80px;
             margin-top: 50px;
-            .container{
-                .box{
+
+            .container {
+                .box {
                     background-image: url(../images/Bitmap\ \(10\).png);
-                        background-size: cover;
-                        border-radius: 50%;
-                        width: 250px;
-                        height: 258px;
-                        position: relative;
-                        margin-bottom: 20px;
-                    span{
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 250px;
+                    height: 258px;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -426,7 +506,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                .main-first{
+
+                .main-first {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -434,17 +515,20 @@ body {
                     margin-left: 90px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .container{
+
+            .container {
 
                 margin-left: 20px;
-                .container-foto2{
+
+                .container-foto2 {
                     background-image: url(../images/Bitmap\ \(11\).png);
                     background-size: cover;
                     border-radius: 50%;
@@ -452,7 +536,8 @@ body {
                     height: 258px;
                     position: relative;
                     margin-bottom: 20px;
-                    span{
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -467,7 +552,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                .main-heading{
+
+                .main-heading {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -475,23 +561,26 @@ body {
                     margin-left: 70px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
-                    font-size: 15px;                
+                    font-size: 15px;
                 }
             }
-            .container{
-                .main-users{
+
+            .container {
+                .main-users {
                     background-image: url(../images/Bitmap\ \(12\).png);
-                        background-size: cover;
-                        border-radius: 50%;
-                        width: 250px;
-                        height: 258px;
-                        position: relative;
-                        margin-bottom: 20px;
-                    span{
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 250px;
+                    height: 258px;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -506,7 +595,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                h4{
+
+                h4 {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -514,21 +604,24 @@ body {
                     margin-left: 60px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
         }
     }
-    section{
+
+    section {
         width: 100%;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        .company{
+
+        .company {
             margin-left: 30px;
             color: #495567;
             text-align: center;
@@ -536,13 +629,24 @@ body {
             font-size: 48px;
             text-align: center;
         }
-        .container{
+
+        .container {
             margin-bottom: 100px;
-            .row{
-                .col-4{
-                    .h-100,.flex-column,.align-items-stretch,.pe-4,.border-end,.position-sticky{
-                        .nav,.nav-pills,.flex-column{
-                            .item-write{
+
+            .row {
+                .col-4 {
+
+                    .h-100,
+                    .flex-column,
+                    .align-items-stretch,
+                    .pe-4,
+                    .border-end,
+                    .position-sticky {
+
+                        .nav,
+                        .nav-pills,
+                        .flex-column {
+                            .item-write {
                                 color: #495567;
                                 font-family: Space Mono;
                                 font-size: 40px;
@@ -550,21 +654,27 @@ body {
                         }
                     }
                 }
-                .col-8{
-                    .scrollspy-example-2{
-                        .accordion{
-                            .accordion-item{
+
+                .col-8 {
+                    .scrollspy-example-2 {
+                        .accordion {
+                            .accordion-item {
                                 background: #F2F5F9;
-                                .accordion-header{
+
+                                .accordion-header {
                                     background: #F2F5F9;
-                                    .accordion-button{
+
+                                    .accordion-button {
                                         color: #495567;
                                         font-family: Space Mono;
                                         font-size: 24px;
                                     }
                                 }
-                                .accordion-collapse,.collapse,.show{
-                                    .accordion-body{
+
+                                .accordion-collapse,
+                                .collapse,
+                                .show {
+                                    .accordion-body {
                                         color: #495567;
                                         font-family: Lexend Deca;
                                         font-size: 15px;
@@ -577,8 +687,9 @@ body {
             }
         }
     }
-    footer{
-        .up-footer{
+
+    footer {
+        .up-footer {
             background-image: url(../images/Mask\ \(1\).png);
             background-size: cover;
             width: 100%;
@@ -586,170 +697,205 @@ body {
             display: flex;
             justify-content: space-around;
             padding-top: 40px;
-            h1{
+
+            h1 {
                 color: #FFF;
                 font-family: Space Mono;
                 font-size: 48px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 48px; /* 100% */
+                line-height: 48px;
+                /* 100% */
                 margin-bottom: 0;
             }
-            .apps-download{
+
+            .apps-download {
                 display: flex;
                 margin-top: 20px;
-                .iphone{
+
+                .iphone {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
                     margin-right: 30px;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
-                .samsung{
+
+                .samsung {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
             }
         }
-        .down-side-footer{
-            margin:0;
+
+        .down-side-footer {
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
-            .navbar,.navbar-expand-lg,.bg-body-tertiary{
+
+            .navbar,
+            .navbar-expand-lg,
+            .bg-body-tertiary {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                .container-fluid{
+
+                .container-fluid {
                     background: #333A44;
                     height: 96px;
                     width: 100%;
-                    
-                    .collapse,.navbar-collapse{
-                        .nav-link,.active:hover{
+
+                    .collapse,
+                    .navbar-collapse {
+
+                        .nav-link,
+                        .active:hover {
                             color: orange;
                         }
-                        .nav-link,.active{
+
+                        .nav-link,
+                        .active {
                             color: #939CAA;
                         }
                     }
-                    .sc-network{
-                        
-                    }
+
+                    .sc-network {}
                 }
             }
         }
     }
 }
-.location-body{
+
+.location-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    .location-header-img{
+
+    .location-header-img {
         background-image: url(../images/Bitmap\ \(13\).png);
         width: 100%;
         height: 170px;
         background-size: cover;
-        h2{
+
+        h2 {
             color: #FFF;
             font-family: Space Mono;
             font-size: 56px;
             padding: 60px 0px 0px 50px;
         }
     }
-    main{
-        .container{
-            .row{
-                h2{
+
+    main {
+        .container {
+            .row {
+                h2 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 48px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
-                .btn-button{
-                    .btn,.btn-outline-warning{
+
+                .btn-button {
+
+                    .btn,
+                    .btn-outline-warning {
                         padding: 10px 30px;
                     }
                 }
-                .col-lg-6,.col-md-6,.col-sm-12{
-                    img{
+
+                .col-lg-6,
+                .col-md-6,
+                .col-sm-12 {
+                    img {
                         margin-left: -122px;
                     }
                 }
             }
         }
     }
-    section{
-        h2{
+
+    section {
+        h2 {
             color: #495567;
             text-align: center;
             font-family: Space Mono;
             font-size: 48px;
         }
-        .ramka{
+
+        .ramka {
             display: flex;
             justify-content: space-around;
             margin-left: 70px;
             margin-top: 70px;
-            .container{
-                .box{
+
+            .container {
+                .box {
                     background-image: url(../images/Bitmap\ \(10\).png);
-                        background-size: cover;
-                        border-radius: 50%;
-                        width: 250px;
-                        height: 258px;
-                        position: relative;
-                        margin-bottom: 20px;
-                    span{
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 250px;
+                    height: 258px;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -764,7 +910,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                .main-first{
+
+                .main-first {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -772,17 +919,20 @@ body {
                     margin-left: 90px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .container{
+
+            .container {
 
                 margin-left: 20px;
-                .container-foto2{
+
+                .container-foto2 {
                     background-image: url(../images/Bitmap\ \(11\).png);
                     background-size: cover;
                     border-radius: 50%;
@@ -790,7 +940,8 @@ body {
                     height: 258px;
                     position: relative;
                     margin-bottom: 20px;
-                    span{
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -805,7 +956,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                .main-heading{
+
+                .main-heading {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -813,23 +965,26 @@ body {
                     margin-left: 70px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
-                    font-size: 15px;                
+                    font-size: 15px;
                 }
             }
-            .container{
-                .main-users{
+
+            .container {
+                .main-users {
                     background-image: url(../images/Bitmap\ \(12\).png);
-                        background-size: cover;
-                        border-radius: 50%;
-                        width: 250px;
-                        height: 258px;
-                        position: relative;
-                        margin-bottom: 20px;
-                    span{
+                    background-size: cover;
+                    border-radius: 50%;
+                    width: 250px;
+                    height: 258px;
+                    position: relative;
+                    margin-bottom: 20px;
+
+                    span {
                         background-color: orange;
                         width: 40px;
                         height: 40px;
@@ -844,7 +999,8 @@ body {
                         font-family: Space Mono;
                     }
                 }
-                h4{
+
+                h4 {
                     color: #495567;
                     margin: 20px 0;
                     font-family: Space Mono;
@@ -852,17 +1008,19 @@ body {
                     margin-left: 60px;
                     margin-top: 50px;
                 }
-                p{
+
+                p {
                     color: #939CAA;
-                    
+
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
         }
     }
-    .div-section{
-        .section-manager{
+
+    .div-section {
+        .section-manager {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -870,27 +1028,34 @@ body {
             width: 1010px;
             height: 128px;
             margin-left: 125px;
-            .menager-info{
+
+            .menager-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
-        .section-designer{
+
+        .section-designer {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -898,27 +1063,34 @@ body {
             width: 1010px;
             height: 128px;
             margin: 24px 125px;
-            .designer-info{
+
+            .designer-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
-        .section-copywriter{
+
+        .section-copywriter {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -926,27 +1098,34 @@ body {
             width: 1010px;
             height: 128px;
             margin: 24px 125px;
-            .copywriter-info{
+
+            .copywriter-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
-        .section-gr-designer{
+
+        .section-gr-designer {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -954,27 +1133,34 @@ body {
             width: 1010px;
             height: 128px;
             margin: 24px 125px;
-            .gr-designer-info{
+
+            .gr-designer-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
-        .section-superviser{
+
+        .section-superviser {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -982,27 +1168,34 @@ body {
             width: 1010px;
             height: 128px;
             margin: 24px 125px;
-            .superviser-info{
+
+            .superviser-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
-        .section-analyst{
+
+        .section-analyst {
             display: flex;
             justify-content: space-between;
             padding-top: 30px;
@@ -1010,29 +1203,36 @@ body {
             width: 1010px;
             height: 128px;
             margin: 24px 125px;
-            .analyst-info{
+
+            .analyst-info {
                 margin-left: 20px;
-                h3{
+
+                h3 {
                     color: #495567;
                     font-family: Space Mono;
                     font-size: 24px;
                 }
-                p{
+
+                p {
                     color: #495567;
                     font-family: Lexend Deca;
                     font-size: 15px;
                 }
             }
-            .btn-button{
+
+            .btn-button {
                 margin-right: 20px;
-                .btn,.btn-outline-warning{
+
+                .btn,
+                .btn-outline-warning {
                     padding: 10px 50px;
                 }
             }
         }
     }
-    footer{
-        .up-footer{
+
+    footer {
+        .up-footer {
             background-image: url(../images/Mask\ \(1\).png);
             background-size: cover;
             width: 100%;
@@ -1040,138 +1240,162 @@ body {
             display: flex;
             justify-content: space-around;
             padding-top: 40px;
-            h1{
+
+            h1 {
                 color: #FFF;
                 font-family: Space Mono;
                 font-size: 48px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 48px; /* 100% */
+                line-height: 48px;
+                /* 100% */
                 margin-bottom: 0;
             }
-            .apps-download{
+
+            .apps-download {
                 display: flex;
                 margin-top: 20px;
-                .iphone{
+
+                .iphone {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
                     margin-right: 30px;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
-                .samsung{
+
+                .samsung {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
             }
         }
-        .down-side-footer{
-            margin:0;
+
+        .down-side-footer {
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
-            .navbar,.navbar-expand-lg,.bg-body-tertiary{
+
+            .navbar,
+            .navbar-expand-lg,
+            .bg-body-tertiary {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                .container-fluid{
+
+                .container-fluid {
                     background: #333A44;
                     height: 96px;
                     width: 100%;
-                    
-                    .collapse,.navbar-collapse{
-                        .nav-link,.active:hover{
+
+                    .collapse,
+                    .navbar-collapse {
+
+                        .nav-link,
+                        .active:hover {
                             color: orange;
                         }
-                        .nav-link,.active{
+
+                        .nav-link,
+                        .active {
                             color: #939CAA;
                         }
                     }
-                    .sc-network{
-                        
-                    }
+
+                    .sc-network {}
                 }
             }
         }
     }
 }
-.body-careers{
+
+.body-careers {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    .location-header-img{
+
+    .location-header-img {
         background-image: url(../images/Bitmap\ \(13\).png);
         width: 100%;
         height: 170px;
         background-size: cover;
-        h2{
+
+        h2 {
             color: #FFF;
             font-family: Space Mono;
             font-size: 56px;
             padding: 60px 0px 0px 50px;
         }
     }
-    .EARTH{
-        margin: 100px 60px;
-    }
-    .under-main{
-        .container{
-            .row{
-                .col-4{
-                    
-                    h2{
+
+
+
+    .under-main {
+        .container {
+            .row {
+                .col-4 {
+
+                    h2 {
                         width: 351px;
                         color: #495567;
                         font-family: Space Mono;
                         font-size: 48px;
                         margin-left: 40px;
                     }
-                    p{
+
+                    p {
                         width: 445px;
                         color: #939CAA;
                         font-family: Lexend Deca;
@@ -1179,8 +1403,11 @@ body {
                         margin-left: -30px;
                         margin-top: 20px;
                     }
-                    .btn-button{
-                        .btn,.btn-outline-warning{
+
+                    .btn-button {
+
+                        .btn,
+                        .btn-outline-warning {
                             padding: 10px 30px;
                             margin: 30px 0px 0px 50px;
                         }
@@ -1189,8 +1416,9 @@ body {
             }
         }
     }
-    footer{
-        .up-footer{
+
+    footer {
+        .up-footer {
             background-image: url(../images/Mask\ \(1\).png);
             background-size: cover;
             width: 100%;
@@ -1198,104 +1426,145 @@ body {
             display: flex;
             justify-content: space-around;
             padding-top: 40px;
-            h1{
+
+            h1 {
                 color: #FFF;
                 font-family: Space Mono;
                 font-size: 48px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 48px; /* 100% */
+                line-height: 48px;
+                /* 100% */
                 margin-bottom: 0;
             }
-            .apps-download{
+
+            .apps-download {
                 display: flex;
                 margin-top: 20px;
-                .iphone{
+
+                .iphone {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
                     margin-right: 30px;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
-                .samsung{
+
+                .samsung {
                     border-radius: 4px;
                     background: #E5ECF4;
                     width: 159px;
-                    height: 56px;  
+                    height: 56px;
                     display: flex;
                     justify-content: space-around;
-                    img{
+
+                    img {
                         width: 24.267px;
                         height: 28px;
                         margin-top: 10px;
                     }
-                    .informatsiya{
-                        p{
+
+                    .informatsiya {
+                        p {
                             color: #495567;
                             font-family: Space Mono;
-                            font-size: 10px;  
-                            margin-top: 10px;                      
+                            font-size: 10px;
+                            margin-top: 10px;
                         }
-                        h6{
+
+                        h6 {
                             margin-left: -5px;
                             color: #495567;
                             font-family: Space Mono;
                             font-size: 20px;
                             margin-top: -15px;
                         }
-                    }              
+                    }
                 }
             }
         }
-        .down-side-footer{
-            margin:0;
+
+        .down-side-footer {
+            margin: 0;
             padding: 0;
             box-sizing: border-box;
-            .navbar,.navbar-expand-lg,.bg-body-tertiary{
+
+            .navbar,
+            .navbar-expand-lg,
+            .bg-body-tertiary {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                .container-fluid{
+
+                .container-fluid {
                     background: #333A44;
                     height: 96px;
                     width: 100%;
-                    
-                    .collapse,.navbar-collapse{
-                        .nav-link,.active:hover{
+
+                    .collapse,
+                    .navbar-collapse {
+
+                        .nav-link,
+                        .active:hover {
                             color: orange;
                         }
-                        .nav-link,.active{
+
+                        .nav-link,
+                        .active {
                             color: #939CAA;
                         }
                     }
-                    .sc-network{
-                        
-                    }
+
+                    .sc-network {}
                 }
             }
         }
     }
-    
+
+}
+
+.EARTH {
+    margin: 0;
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.row11 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (orientation: landscape) {
+
+    .up-footer{
+       
+        h1{
+            font-size: 10px;
+        }
+    }
 }
