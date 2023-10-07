@@ -241,11 +241,11 @@ body footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  z-index: 1px;
-  margin-top: -30px;
 }
 body footer .navbar, body footer .navbar-expand-lg, body footer .bg-body-tertiary {
-  margin-top: -20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body footer .navbar .container-fluid, body footer .navbar-expand-lg .container-fluid, body footer .bg-body-tertiary .container-fluid {
   background: #333A44;
@@ -585,7 +585,9 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   box-sizing: border-box;
 }
 .main footer .down-side-footer .navbar, .main footer .down-side-footer .navbar-expand-lg, .main footer .down-side-footer .bg-body-tertiary {
-  margin-top: -20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .main footer .down-side-footer .navbar .container-fluid, .main footer .down-side-footer .navbar-expand-lg .container-fluid, .main footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
@@ -1003,7 +1005,9 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   box-sizing: border-box;
 }
 .location-body footer .down-side-footer .navbar, .location-body footer .down-side-footer .navbar-expand-lg, .location-body footer .down-side-footer .bg-body-tertiary {
-  margin-top: -20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .location-body footer .down-side-footer .navbar .container-fluid, .location-body footer .down-side-footer .navbar-expand-lg .container-fluid, .location-body footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
@@ -1136,7 +1140,9 @@ body footer .navbar .container-fluid .collapse .nav-link, body footer .navbar .c
   box-sizing: border-box;
 }
 .body-careers footer .down-side-footer .navbar, .body-careers footer .down-side-footer .navbar-expand-lg, .body-careers footer .down-side-footer .bg-body-tertiary {
-  margin-top: -20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .body-careers footer .down-side-footer .navbar .container-fluid, .body-careers footer .down-side-footer .navbar-expand-lg .container-fluid, .body-careers footer .down-side-footer .bg-body-tertiary .container-fluid {
   background: #333A44;
