@@ -922,6 +922,7 @@ body footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   font-size: 15px;
 }
 .location-body .div-section .section-manager {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
