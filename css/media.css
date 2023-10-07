@@ -1,0 +1,5 @@
+@media only screen and(max-width:560px){
+    body,.navbar,.navbar-expand-lg,.bg-body-tertiary{
+        margin-left: 30px;
+    }
+}

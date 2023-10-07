@@ -1388,10 +1388,4 @@ body footer .bg-body-tertiary .container-fluid .navbar-collapse .active {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-@media only screen and (orientation: landscape) {
-  .up-footer h1 {
-    font-size: 10px;
-  }
 }/*# sourceMappingURL=style.css.map */
